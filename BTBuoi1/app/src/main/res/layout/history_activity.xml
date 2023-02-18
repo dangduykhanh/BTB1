@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HistoryActivity">
+
+    <TextView
+        android:id="@+id/tView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="end|bottom"
+        android:background="@drawable/vien"
+        android:textSize="40sp"
+        android:text="" />
+    <TextView
+        android:id="@+id/tView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="end|center"
+        android:background="@drawable/vien"
+        android:text="@string/TextView"
+        android:textSize="32sp" />
+</LinearLayout>
